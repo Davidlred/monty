@@ -22,4 +22,4 @@ void fun_string(stack_t **head, unsigned int counter)
 	printf("\n");
 }
 
-		
+
