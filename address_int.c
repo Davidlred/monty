@@ -13,9 +13,9 @@ void fun_pinteger(stack_t **head, unsigned int counter)
 		fprintf(stderr, "L%u: can't print, stack empty\n", counter);
 		fclose(bus.file);
 		free(bus.content);
-		free_stack(*head);
+		clear_stack(*head);
 		exit(EXIT_FAILURE);
 	}
-	printf("&d\n", (*head)->n);
+	printf("%d\n", (*head)->n);
 }
 

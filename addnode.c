@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * addnode - add node to the head stack
+ * nodeadder - add node to the head stack
  * @head: head of the stack
  * @n: new_value
  * Return: no return
 */
-void addnode(stack_t **head, int n)
+void nodeadder(stack_t **head, int n)
 {
 
 	stack_t *new_node, *aux;
@@ -22,3 +22,4 @@ void addnode(stack_t **head, int n)
 	new_node->prev = NULL;
 	*head = new_node;
 }
+
